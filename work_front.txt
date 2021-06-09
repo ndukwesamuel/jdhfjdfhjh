@@ -1,0 +1,20 @@
+Using the Markup Validator.
+What is the Markup Validator and what does it do?
+Why validate?
+How do I use the Markup validator?
+Many error messages? Don't panic.
+What is the Markup Validator and what does it do?
+The Markup Validator is a free tool and service that validates markup: in other words, it checks the syntax of Web documents, written in formats such as HTML.
+
+Why validate?
+One of the important maxims of computer programming is: "Be conservative in what you produce; be liberal in what you accept." Browsers follow the second half of this maxim by accepting Web pages and trying to display them even if they're not legal HTML. The problem is that different browsers (or even different versions of the same browser) will make different guesses about the same illegal construct...
+
+How do I use the Markup validator?
+Most probably, you will want to use the online Markup Validation service. The simple way to use this service to validate a Web page is to paste its address into the text area on the validator's home page , and press the "Check" button.
+
+Many error messages? Don't panic.
+Don't panic. Did The Validator complain about your DOCTYPE declaration (or lack thereof)? Make sure your document has a syntactically correct DOCTYPE declaration, as described in the section on DOCTYPE, and make sure it correctly identifies the type of HTML you're using. Then run it through The Validator again; if you're lucky, you should get a lot fewer errors. If this doesn't help, then you may be experiencing a cascade failure ...
+
+Written by: W3C
+
+For more information, please visit this page.
